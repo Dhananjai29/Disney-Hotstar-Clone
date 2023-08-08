@@ -6,11 +6,7 @@
     margin: 100px 0 0 120px; 
     color: white;
 }
-.homePageContent:hover{
-    .homePageContent .content-head .btn{
-        visibility: visible;
-    }
-}
+
 .homePageContent .content-head{
     display: flex; justify-content: space-between; align-items: center;
     margin-top: 50px; padding-right: 20px;

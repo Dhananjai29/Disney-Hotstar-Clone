@@ -2,6 +2,8 @@ nav{
     display: flex;
     justify-content: space-between;
     padding: 20px 0;
+    position: sticky; top: 0;
+    background: #111111;
 }
 nav .left{
     display: flex;
