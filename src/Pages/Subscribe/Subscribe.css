@@ -1,0 +1,103 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+nav .left{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+nav .left .close{
+    font-size: 2.5rem;
+    text-decoration: none;
+    color: #e1e6f0;
+}
+nav .left .close:hover{
+    transform: translateY(-1px);
+}
+nav .left .logo img{
+    width: 5rem;
+}
+.nav .select-container{
+    display: flex; justify-content: center;
+    position: relative;
+    width: 250px; height: 100px;
+}
+nav .select-container .select-box{
+    width: 100%;
+    padding: 10px 50px;
+    color: white;
+    background-color: rgb(21, 21, 21);
+    font-size: 1.2em;
+    appearance: none; border-radius: 10px;
+    border: none; outline: none; font-weight: 500;
+}
+nav .select-container .select-box option{
+    cursor: pointer;
+}
+.content{
+    cursor: default;
+    user-select: none;
+}
+.content .plans{
+    text-align: center;
+    width: 60%;
+}
+.content .message h2{
+    font-weight: 700;
+}
+.content .plans small{
+    color: #707A94;
+    font-size: 12px;
+    line-height: 10px;
+}
+.content .plans table{
+    text-align: center;
+    color: #e1e6f0;
+}
+.content .plans table .heading{
+    font-size: 1.2em;
+    color: #707A94;
+    line-height: 1em;
+
+}
+.content .plans .plans-item{
+    text-align: left;
+    line-height: 1em;
+    font-weight: 500; 
+}
+.content .plans table tr td{
+    padding: 20px 3px;
+    letter-spacing: -1px;
+    color: #707A94;
+}
+.content .planActivater{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    text-align: left;
+}
+.content .planActivater button{
+    width: 30%; height: 80px;
+    border: 1px solid #e1e6f0;
+    border-radius: 10px; text-align: left; padding-left: 10px;
+    background: transparent; color: #e1e6f0;
+}
+.content .planActivater button:focus{
+    border: 2px solid #e1e6f0;
+}
+.content .plans .confirmPlan button{
+    width: 100%; height: 50px;
+    border-radius: 10px;
+    outline: none;
+    background-image: linear-gradient(93.87deg,#095ae6,#062794);;
+    color: #e1e6f0; font-size: 1.2em;
+    font-weight: 600;
+    border: none; 
+    transition: 0.3s ease-in-out;
+}
+.content .plans .confirmPlan button:hover{
+    transform: scale(1.02);
+}

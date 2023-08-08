@@ -1,0 +1,45 @@
+footer{
+    margin: 120px 50px 0 120px; 
+    font-weight: 600;
+}
+.links{
+    display: flex; justify-content: space-between;
+}
+.links .links-inner{
+    display: flex; flex-direction: column;
+    line-height: 2em;
+}
+.links .links-inner h6{
+    margin-bottom: 40px;
+    color: #e1e6f0; letter-spacing: 0.5px;
+    cursor: pointer; font-size: 0.9rem;
+}
+.links .socials .socialMedia{
+   display: flex; justify-content: space-evenly;
+   transform: scale(1.3);
+}
+.links .socials .socialMedia .link:hover{
+    color: #e1e6f0;
+}
+.links .links-inner .link{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 0.8rem; color: #8f98b2;
+    letter-spacing: 1px; cursor: pointer;
+}
+
+.rights{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px; color: #8f98b2;
+}
+.rights .left p{
+    font-size: 0.8rem;
+    line-height: 10px;
+    cursor: default;
+}
+.rights .download-links{
+    display: flex; justify-content: space-evenly;
+    width: 200px; transform: scale(1.4);
+    cursor: pointer;
+}

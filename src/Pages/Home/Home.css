@@ -1,0 +1,51 @@
+.carousel .carousel-inner .carousel-item img{
+    width: 100%; height: 100vh;
+}
+
+.homePageContent{
+    margin: 100px 0 0 120px; 
+    color: white;
+}
+.homePageContent:hover{
+    .homePageContent .content-head .btn{
+        visibility: visible;
+    }
+}
+.homePageContent .content-head{
+    display: flex; justify-content: space-between; align-items: center;
+    margin-top: 50px; padding-right: 20px;
+    /* border: 2px solid red; */
+}
+.homePageContent .content-head h5{
+    color: #E1E6F0;
+    font-size: 24px; font-family: sans-serif;
+    font-weight: 600;
+}
+.homePageContent .content-head .btn{
+    color: rgb(58, 58, 58);
+    font-weight: 500;
+    font-size: 0.9rem;
+    outline: none;
+}
+.homePageContent .content-head .btn:hover{
+    color: #E1E6F0;
+}
+.homePageContent .contentList{
+    display: flex; flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 5px; 
+}
+.homePageContent .contentList .latestRelease{
+    flex: 1; height: 250px;
+    /* border: 2px solid rgb(8, 8, 8); */
+    transition: 0.4s;
+}
+.homePageContent .contentList .latestRelease img{
+    width: 100%; height: 100%;
+    border-radius: 20px;  
+    cursor: pointer;
+}
+.homePageContent .contentList .latestRelease:hover{
+    flex: 2;
+}
