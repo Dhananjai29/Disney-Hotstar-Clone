@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Disney-Hotstar-Clone.github.io/static/css/main.0ec85a34.css",
+    "main.js": "/Disney-Hotstar-Clone.github.io/static/js/main.6b21679c.js",
+    "static/js/787.488665d6.chunk.js": "/Disney-Hotstar-Clone.github.io/static/js/787.488665d6.chunk.js",
+    "static/media/LordOfTheRings.jpg": "/Disney-Hotstar-Clone.github.io/static/media/LordOfTheRings.9ed1a6524219a2b72dbb.jpg",
+    "static/media/SkyScrapper.jpg": "/Disney-Hotstar-Clone.github.io/static/media/SkyScrapper.139006c2db37fc4b6948.jpg",
+    "static/media/DesertShadow.jpeg": "/Disney-Hotstar-Clone.github.io/static/media/DesertShadow.dd8ede6080c3bdc66949.jpeg",
+    "static/media/EndersGame.jpeg": "/Disney-Hotstar-Clone.github.io/static/media/EndersGame.b0cfc0a30992a9cb44a2.jpeg",
+    "static/media/logo-d-plus.svg": "/Disney-Hotstar-Clone.github.io/static/media/logo-d-plus.671d39b0bcd09f50cd85e67d20c0753d.svg",
+    "index.html": "/Disney-Hotstar-Clone.github.io/index.html",
+    "main.0ec85a34.css.map": "/Disney-Hotstar-Clone.github.io/static/css/main.0ec85a34.css.map",
+    "main.6b21679c.js.map": "/Disney-Hotstar-Clone.github.io/static/js/main.6b21679c.js.map",
+    "787.488665d6.chunk.js.map": "/Disney-Hotstar-Clone.github.io/static/js/787.488665d6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0ec85a34.css",
+    "static/js/main.6b21679c.js"
+  ]
+}
